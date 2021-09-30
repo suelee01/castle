@@ -1,0 +1,31 @@
+p {
+
+    text-indent: 2.5em;
+    color: #867f27;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+
+}
+
+
+
+#left {
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    #left {
+        height: 900px;
+    }
+
+
+    footer {
+        display: none;
+    }
+}
