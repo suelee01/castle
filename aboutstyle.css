@@ -1,0 +1,253 @@
+.aboutUs {
+    margin-top: 60px;
+    background-color: #ba7b07;
+    height: 25%;
+    position: absolute;
+    z-index: 999;
+    width: 30%;
+    left: 20%;
+    top: 50%;
+    opacity: 0.7;
+
+    /*animation-duration: 3s;
+    animation-name: slidein;*/
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutUs {
+        padding-bottom: 50px;
+        top: 25%;
+        width: 40%;
+    }
+}
+
+h5 {
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 4px 2px #ba7b07;
+    font-size: 25px;
+    margin-right: 20px;
+    text-align: right;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+p1 {
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 4px 2px #ba7b07;
+    font-size: 18px;
+    margin-left: 10px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    letter-spacing: 1px;
+    text-align: inherit;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 90%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 3%;
+        width: 100%;
+    }
+}
+
+h21 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    color: #867f27;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 3px 4px 3px #9e706f;
+    letter-spacing: 2px;
+    float: right;
+    margin: 2px 2px 2px 2px;
+}
+
+p2 {
+    font-style: italic;
+    font-size: 15px;
+    color: #867f27;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin: 2px 2px 2px 2px;
+}
+
+h22 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    color: #867f27;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 3px 4px 3px #9e706f;
+    letter-spacing: 2px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+}
+
+aside1 {
+    float: right;
+    margin-right: 75px;
+    margin-top: 120px;
+    text-align: center;
+
+    border-style: dashed;
+    background-color: azure;
+    border-top-color: #867f27;
+    border-right-color: #ba7b07;
+    border-bottom-color: #ba7b07;
+    border-left-color: #867f27;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+}
+
+/*.fling-about1 > img {
+    position: absolute;
+    left: 50%;
+}*/
+.fling-about1 {
+
+
+
+    height: 600px;
+    display: flex;
+    margin: 50px auto;
+    /*margin-top: 50px;
+       margin: 50px auto 50px 50px;
+    /*margin-left: 50px;*/
+    /*!!*/
+}
+
+/* animation is set for 20 seconds and it goes on ad infinitum */
+.fling-about1 img {
+    position: absolute;
+    animation: fling-about1 6s infinite;
+    opacity: 0;
+    width: 50%;
+    right: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .about1 {
+        margin-top: -50px;
+    }
+
+    .fling-about1 img {
+        width: 75%;
+        left: 10%;
+        margin-top: 500px;
+    }
+
+    #hr1 {
+        margin-top: 400px;
+    }
+}
+
+/*@media only screen and (max-width: 500px) {
+    .fling-about1 {
+        width: 100%;
+    }
+}*/
+
+@keyframes fling-about1 {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+.fling-about1 img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.fling-about1 img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+
+
+aside2 {
+    float: left;
+    margin-left: 75px;
+    margin-top: 150px;
+    text-align: center;
+
+    border-style: dashed;
+    background-color: azure;
+    border-top-color: #ba7b07;
+    border-right-color: #867f27;
+    border-bottom-color: #867f27;
+    border-left-color: #ba7b07;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+}
+
+.fling-about2 {
+
+
+
+    height: 600px;
+    display: flex;
+    margin: 50px auto;
+    /*margin-top: 50px;/*
+    /*!!*/
+}
+
+/* animation is set for 20 seconds and it goes on ad infinitum */
+.fling-about2 img {
+    position: absolute;
+    animation: fling-about1 6s infinite;
+    opacity: 0;
+    width: 50%;
+    left: 50%;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .about2 {
+        margin-top: -110px;
+    }
+
+    .fling-about2 img {
+        width: 75%;
+        left: 10%;
+        margin-top: 350px;
+    }
+
+
+}
+
+@keyframes fling-about2 {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+.fling-about2 img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.fling-about2 img:nth-child(2) {
+    animation-delay: 3s;
+}
