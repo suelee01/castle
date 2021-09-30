@@ -1,0 +1,169 @@
+.contact_infor {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    text-align: right;
+    z-index: 999;
+}
+
+
+
+.back2 {
+    background-color: #ba7b07;
+    height: 25%;
+    position: absolute;
+    width: 20%;
+    left: 75%;
+    top: 35%;
+    opacity: 0.4;
+    -webkit-animation-name: changeColor;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+
+    animation-name: changeColor;
+    animation-duration: 4s;
+    /* to have it repeat infinitely, comment the line above and add the following: 
+	animation: changeColor 4s infinite; */
+}
+
+/* Standard syntax */
+@keyframes changeColor {
+    from {
+        background-color: #ba7b07;
+    }
+
+    to {
+        background-color: snow;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes changeColor {
+    from {
+        background-color: #ba7b07;
+    }
+
+    to {
+        background-color: snow;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .contact_infor {
+        top: 25%;
+        /*21%*/
+
+        left: 55%;
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .back2 {
+
+        top: 25%;
+        /*21%*/
+        left: 65%;
+        width: 30%;
+    }
+}
+
+p1 {
+    color: #867f27;
+    font-family: 'Lato', sans-serif;
+    font-style: oblique;
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: right;
+}
+
+
+.basic-grey {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    /*max-width: 500px;*/
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px 1px #FFF;
+    border: 1px solid #E4E4E4;
+}
+
+.basic-grey h3 {
+    font-size: 20px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;
+    color: #867f27;
+
+}
+
+.basic-grey h3 > span {
+    display: block;
+    font-size: 12px;
+}
+
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+
+.basic-grey label > span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #867f27;
+}
+
+.basic-grey input[type="text"],
+.basic-grey input[type="email"],
+.basic-grey textarea {
+    border: 1px solid #DADADA;
+    color: #867f27;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.basic-grey textarea {
+    padding: 5px 3px 3px 5px;
+    height: 100px;
+}
+
+.basic-grey .button {
+    background: #867f27;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.basic-grey .button:hover {
+    background: #f8bf32;
+}
+
+.left,
+.center,
+.right {
+    margin-top: 400px;
+}
+
+footer {
+    margin-top: 600px;
+}
