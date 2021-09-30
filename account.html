@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- let the browser know its html5 -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Zhuoxiu Li's Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="accountstyle.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h6 style="text-align: center; margin-bottom: 2px"> <br />If you are interested in art shows, <u> Join us</u> now!<br /></h6>
+    </header>
+    <br />
+
+    <div class="text">
+        <p3>
+            <span>Enjoy</span>
+            <span>Art</span>
+            <span>From</span>
+            <span>ZERO</span>
+            <span>!</span>
+        </p3>
+    </div>
+
+    <div class="top">
+        <a href="index.html"><img src="https://zhuoxiu.neocities.org/logo01.jpg" alt="logo" width="18%"></a>
+    </div>
+
+    <section>
+        <div class="navbar" id="main_nav">
+
+            <a href="index.html">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn">
+                    <a href="about.html">About</a></button>
+                <div class="subnav-content">
+                    <a href="mygoal.html">Goal</a>
+                    <a href="">Cooperation</a>
+                </div>
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn" text-align="center">
+                    <a href="/ArtWorks.html">Art Work</a></button>
+                <div class="subnav-content">
+                    <a href="recent.html">Recent Shows</a>
+                    <a href="artworks02.html">Installation</a>
+                    <a href="artworks02.html">Calligraphy</a>
+                    <a href="artworks02.html">Painting</a>
+                    <a href="artworks02.html">Sculpture</a>
+                    <a href="artworks02.html">Other</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">
+                    <a href="books.html">Book</a></button>
+                <div class="subnav-content">
+                    <a href="">About Show</a>
+                    <a href="">Recommend</a>
+                </div>
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn">
+                    <a href="contact.html">Contact</a></button>
+                <div class="subnav-content">
+                    <a href="">Business</a>
+                    <a href="">Customer Service</a>
+                    <a href="">Office Location</a>
+                </div>
+            </div>
+
+            <a href="account.html" class="active">Account</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
+    </section>
+
+
+    <div class="container">
+        <a href="account.html">
+            <i1 class="fa fa-user-o"></i1>
+        </a>
+        <form action="" class="parent">
+            <input type="text" class="search" placeholder="Search">
+            <!--<input type="button" name="" id="" class="btn">-->
+            <a href="ArtWorks.html"><i class="fa fa-search"></i></a>
+        </form>
+    </div>
+
+
+    <div class="responsive2" align="center">
+        <div class="gallery2">
+            <a target="_blank" href="images/image4.jpg">
+                <img src="https://zhuoxiu.neocities.org/user1.png" alt="user" align="center" width="600" height="400">
+            </a>
+            <div class="desc1">
+                <p21>Zoey</p21>
+                <br />
+                <p2>New York, USA</p2>
+                <br /><br />
+                <p4>Art Director | Visual design | Mobile & Web design | Interface design </p4>
+                <br />
+                <hr>
+                <p><a href="#"><i class="fa fa-comment-o"></i></a>10&emsp;
+                    <a href="#"><i class="fa fa-heart-o"></i></a>20</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="clearfix">
+    </div>
+
+
+
+    <div class="upload" align="center">
+        <h2>Upload Files:</h2>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DlZplbEKFF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br />
+        <p2>Video about visiting the metropolitan museum</p2>
+    </div>
+
+    <br /><br />
+
+    <div class="control_wrapper">
+        <!-- Initialize Uploader -->
+        <div id='dropArea' style='height: auto; overflow: auto'>
+            <span id='drop'> Drop image (JPG, PNG) files here or Browse</span>
+            <input type='file' name="UploadFiles" id='fileupload' style="opacity: 0" />
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+        function myFunction() {
+            // this bit of JavaScript just selects responsive className
+            // when you click on the hamburger icon,
+            var x = document.getElementById("main_nav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+
+    </script>
+
+    <br /><br /><br /><br /><br />
+    <div class="left" align="center">
+        <h3>About us</h3>
+        <br />
+        <hr width="40%" color="#867f27" size="2">
+        <h4>Our Story</h4>
+        <h4>Shipping & Returns</h4>
+    </div>
+    <div class="center" align="center">
+        <h3>Contact us</h3>
+        <br />
+        <hr width="40%" color="#867f27" size="2">
+        <h4>E-mail: zeroOffical@gmail.com</h4>
+    </div>
+    <div class="right" align="center">
+        <h3>Join us</h3>
+        <br />
+        <hr width="40%" color="#867f27" size="2">
+        <h4>Sign up to receive updates from latest shows.</h4>
+    </div>
+    <footer>
+        <h2 style="text-align: center" class="mirrorRotateVertical">ZERO</h2>
+    </footer>
+</body>
+
+</html>
