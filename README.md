@@ -1,2 +1,2 @@
 # zero website
-# 本网站旨在建造一个虚拟的艺术展览馆，收集艺术作品的高清图片和视频，供给全世界的人们欣赏。同时，用户们可以发表评论，并在网站上讨论。此外，该网站页也手机用户反馈，用以提升自己。总共展示6个主要页面，3个次要页面。
+# The purpose of this website is to build a virtual art gallery, collecting high-definition images and videos of artworks for the world to enjoy. Users can comment and discuss on the site. In addition, the website page also calls user feedback to improve themselves. A total of six primary pages and three secondary pages are displayed.
